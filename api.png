@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5501/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./api_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./api_files/styles.css">
+    <title>Usuarios de GITHUB</title>
+    <link real="">
+</head>
+<body>
+
+<!--Informacion principal-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    <h1 class="">GitHub Profile Finder</h1>
+                    <p>verify the information of a user in github, entering only their username, you can see their repositories, their github address and more.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row action justify-content-center rowForm">
+            <div class="col-12 col-lg-8">
+                <div action="" class="formulario">
+                    <div class="row">
+                        <div class="col-12 col-md-6 text-center">
+                            <input id="usuarioNombre" type="text" placeholder="Enter user">
+                        </div>
+                        <div class="col-12 col-md-6 ">
+                            <button class="btn btn-dark btn-lg btn-block" id="user" type="text" onclick="usuario()">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--card para informacion de usuario-->
+
+        <div class="cardsUsuarios" id="cardsUsuarios" style="display: block;">
+            <div class="row acerca-de align-items-center">
+				<div class="col-12 foto">
+                    <div>
+                    <img src="./api_files/47255334" class="rounded-circle img-fluid card-img-top img-fluid" alt="" id="imagen">
+                    </div>
+                    <label class="labelInfo">name</label>
+                    <p class="nombre" id="nombre">Orlando Castañeda</p>
+                    <label class="labelInfo">user name</label>
+                    <p class="nombre" id="titulo">orlandCasta</p>
+                    <label class="labelInfo">last update</label>
+                    <p class="nombre" id="fecha">2020-09-17T18:26:49Z</p>
+                    <a href="https://github.com/orlandCasta" class="btn btn-primary btn-lg btn-block" id="enlace">Go to site</a>
+                </div>
+			</div>
+        </div>
+
+
+            <div class="row">
+                <div class="card-columns" id="cardsRepos">
+
+                
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">backend-social-network</h5>
+                    <label class="" id="rDate">2020-09-17T18:25:56Z</label>
+                    <p class="card-text" style="color: black;">this is a practice for the realization of an api of a social network, it was done with node.js</p>
+                    <a href="https://github.com/orlandCasta/backend-social-network.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">call-api-github</h5>
+                    <label class="" id="rDate">2020-09-18T04:53:26Z</label>
+                    <p class="card-text" style="color: black;">llamado a api de github, muestra informacion del usuario y repositorios, realizado con vanilla js</p>
+                    <a href="https://github.com/orlandCasta/call-api-github.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">challenge-javascript-01</h5>
+                    <label class="" id="rDate">2020-07-22T06:54:05Z</label>
+                    <p class="card-text" style="color: black;">challenge-javascript-01 - Area of a Triangle</p>
+                    <a href="https://github.com/orlandCasta/challenge-javascript-01.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">challenge-javascript-02</h5>
+                    <label class="" id="rDate">2020-08-07T18:06:32Z</label>
+                    <p class="card-text" style="color: black;">challenge-javascript-02 - Número de Fibonacci</p>
+                    <a href="https://github.com/orlandCasta/challenge-javascript-02.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">funny-initial-commit</h5>
+                    <label class="" id="rDate">2020-07-10T06:54:06Z</label>
+                    <p class="card-text" style="color: black;">Funny initial git commit messages</p>
+                    <a href="https://github.com/orlandCasta/funny-initial-commit.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            
+            <div class="card cardsrepos" style="width: 18rem;">
+                <img class="card-img-top img-fluid" src="./api_files/js.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">web-portfolio</h5>
+                    <label class="" id="rDate">2020-05-31T19:37:29Z</label>
+                    <p class="card-text" style="color: black;">Development of a simple web portfolio with the use of different tools and programming languages such as html, css, react.js and python.</p>
+                    <a href="https://github.com/orlandCasta/web-portfolio.git" class="btn btn-outline-primary btn-block">go to repository</a>
+                </div>
+            </div>
+            </div>
+            </div>
+    </div>
+
+    <script src="./api_files/index.js.descarga"></script>
+    <script src="./api_files/jquery-3.5.1.slim.min.js.descarga" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./api_files/popper.min.js.descarga" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./api_files/bootstrap.min.js.descarga" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>
+</script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
