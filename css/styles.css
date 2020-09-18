@@ -1,0 +1,47 @@
+h1{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+}
+
+
+.fm-nav a{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+.fm-nav a:hover{
+    color:rgb(235, 235, 235);
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+input{
+    width: 100%;
+}
+
+/* --- Contacto --- */
+
+
+.formulario input{
+	padding: 15px;
+    width: 100%;
+    height: 59%;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 30px;
+}
+ body{
+     background-image: url(/compute-ea4c57a4.png);
+ }
